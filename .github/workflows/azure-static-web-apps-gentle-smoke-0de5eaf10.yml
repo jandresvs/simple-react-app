@@ -37,7 +37,7 @@ jobs:
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          REACT_APP_API_URL: https://diseno-lab.azure-api.net/v1
+          REACT_APP_API_URL: https://diseno-lab.azure-api.net/v1/products
           REACT_APP_API_KEY: d4a5a93e5fe04182a809ec3a05ac5ee1
 
   close_pull_request_job:
