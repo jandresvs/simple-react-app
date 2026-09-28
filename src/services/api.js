@@ -12,7 +12,7 @@ export const fetchProducts = async () => {
             throw new Error('Error fetching products');
         }
         const data = await response.json();
-        return data;
+        return data.content ?? [];
     } catch (error) {
         console.error(error);
         return [];
